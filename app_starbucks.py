@@ -9,7 +9,7 @@ st.set_page_config(page_title="Starbucks MLR prediction Model", layout="centered
 st.title("Starbucks MLR Prediction Model")
 st.write("Provide the following values to predict the number of Cups of Coffee per day.")
 
-MODEL_PATH = Path("Starbucks_MLR_model.pkl")
+MODEL_PATH = Path("Starbucks_MLR.pkl")
 
 # Load model safely
 try:
